@@ -12,5 +12,6 @@ namespace dotNETv3
         public DbSet<Video> Videos { get; set; }
         public DbSet<Audio> Audios { get; set; }
 
+        public DbSet<Image> Images { get; set; }
     }
 }

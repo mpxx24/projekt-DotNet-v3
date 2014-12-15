@@ -26,6 +26,10 @@ namespace dotNETv3
             {
                 ListaPlikowAudio.Items.Add(y.FilePath);
             }
+            foreach (var y in c.Images)
+            {
+                ListaPlikowImg.Items.Add(y.FilePath);
+            }
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
@@ -90,6 +94,6 @@ namespace dotNETv3
         {
             VideoWindow.Stop();
         }
-
+        
     }
 }

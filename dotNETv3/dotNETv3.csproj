@@ -64,6 +64,7 @@
     </ApplicationDefinition>
     <Compile Include="Audio.cs" />
     <Compile Include="File.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="MV_AudioSearch.cs" />
     <Compile Include="MV_ImageDisplay.cs" />
     <Compile Include="MW_AudioPlay.cs" />
